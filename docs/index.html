@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>数值算法流程图合集</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;background:#f6f8fa;color:#24292e}
+    header{background:#24292e;color:#fff;padding:1.5rem 0;text-align:center}
+    header h1{margin:0;font-size:1.8rem}
+    main{max-width:900px;margin:2rem auto;padding:0 1rem}
+    .card{display:block;background:#fff;border:1px solid #d0d7de;border-radius:8px;margin:1rem 0;padding:1.2rem 1.5rem;text-decoration:none;color:#0969da;transition:box-shadow .2s}
+    .card:hover{box-shadow:0 5px 15px rgba(0,0,0,.08)}
+    .card h2{margin:.2rem 0 .5rem;font-size:1.3rem}
+    .card p{margin:0;color:#57606a;font-size:.95rem}
+    footer{text-align:center;padding:2rem 0;font-size:.85rem;color:#57606a}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>数值算法流程图合集</h1>
+  </header>
+
+  <main>
+    <a class="card" href="Gauss流程图.html" target="_blank">
+      <h2>Gauss 列主元消去法</h2>
+      <p>含选主元、消元、回代完整流程，支持精度控制与奇异判断。</p>
+    </a>
+
+    <a class="card" href="triangle流程图.html" target="_blank">
+      <h2>LU 分解（triangle）</h2>
+      <p>矩阵分解为 L、U 双三角矩阵，并给出前代/回代求解步骤。</p>
+    </a>
+
+    <a class="card" href="龙贝格积分流程图.html" target="_blank">
+      <h2>Romberg 数值积分</h2>
+      <p>基于梯形公式的逐次二分外推算法，自动估计误差并停止。</p>
+    </a>
+
+    <a class="card" href="最小二乘法.html" target="_blank">
+      <h2>多项式最小二乘拟合</h2>
+      <p>构造法方程、调用 triangle 求解，并计算残差与拟合曲线。</p>
+    </a>
+  </main>
+
+  <footer>
+    本项目已托管于 <a href="https://github.com" style="color:#0969da">GitHub</a>，可自由 Fork / PR。
+  </footer>
+</body>
+</html>
