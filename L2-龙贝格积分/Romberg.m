@@ -51,3 +51,4 @@ function output =f(x)   %输入被积函数
     output=sin(x)/x;
 end
 
+
