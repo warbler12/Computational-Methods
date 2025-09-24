@@ -101,7 +101,7 @@ f2 = @(x) sin(x)./x;
 | 3 | 0.5×10⁻⁹ | — | 触发“精度不符” |
 
 ① eps=0.5×10⁻³  
-![Romberg_esp_5_-3](docs/Romberg_esp_5_-3.png)
+![Romberg_esp_5_-3](pics/Romberg_esp_5_-3.png)
 
 ② eps=0.5×10⁻⁶（达到机器精度附近）  
 ![Romberg_esp_5_-6](docs/Romberg_esp_5_-6.png)
