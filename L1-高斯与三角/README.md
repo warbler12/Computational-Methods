@@ -95,15 +95,22 @@ x=zeros(1,n);
 | **n=3**（eps=0.01） | [1.667  -0.3333  0.5000] | 12 |
 | **n=3**（eps=10） | [1.667  -0.3333  0.5000] | 12 |
 
-#### 1. n = 4 运行截图
-![n4-run](pics/Gauss_n4.png)
+<br>
 
-#### 2. n = 3（eps = 0.01）运行截图
-![n3-eps0 01](pics/Gauss_n3_0.01.png)
+##### 结果截图
 
-#### 3. n = 3（eps = 10）运行截图
-首次触发“精度不符”异常，调整后再运行得到相同解。  
-![n3-eps10](pics/Gauss_n3_10.png)
+<table>
+  <tr align="center">
+    <td><strong>n = 4</strong></td>
+    <td><strong>n = 3（eps = 0.01）</strong></td>
+    <td><strong>n = 3（eps = 10）</strong></td>
+  </tr>
+  <tr align="center">
+    <td><img src="pics/Gauss_n4.png" width="300" height="300"></td>
+    <td><img src="pics/Gauss_n3_0.01.png" width="300" height="300"></td>
+    <td><img src="pics/Gauss_n3_10.png" width="180" height="170"></td>
+  </tr>
+</table>
 
 ---
 
@@ -197,3 +204,4 @@ x=zeros(1,n);
 3. 实验结果与理论解一致，程序可直接用于工程计算。
 
 ```
+
