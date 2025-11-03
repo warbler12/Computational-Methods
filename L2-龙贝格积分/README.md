@@ -100,14 +100,11 @@ f2 = @(x) sin(x)./x;
 | 2 | 0.5×10⁻⁶ | 1.5×10⁻⁸ | 3.141593 |
 | 3 | 0.5×10⁻⁹ | — | 触发“精度不符” |
 
-① eps=0.5×10⁻³  
-![Romberg_esp_5_-3](pics/Romberg_esp_5_-3.png)
 
-② eps=0.5×10⁻⁶（达到机器精度附近）  
-![Romberg_esp_5_-6](pics/Romberg_esp_5_-6.png)
+| ① eps=0.5×10⁻³ | ② eps=0.5×10⁻⁶（达到机器精度附近） | ③ eps=0.5×10⁻⁹（过严，层数不足） |
+|:---------------:|:---------------------------------:|:-------------------------------:|
+| <img src="pics/Romberg_esp_5_-3.png" width="300" height="300"> | <img src="pics/Romberg_esp_5_-6.png" width="300" height="300"> | <img src="pics/Romberg_esp_5_-9.png" width="180" height="180"> |
 
-③ eps=0.5×10⁻⁹（过严，层数不足）  
-![Romberg_esp_5_-9](pics/Romberg_esp_5_-9.png)
 
 &gt; 当 eps 过小时，算法在最大层数 `n=6` 仍无法满足精度，主动报错“精度不符”，体现自适应保护机制。
 
