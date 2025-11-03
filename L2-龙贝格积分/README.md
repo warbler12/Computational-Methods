@@ -101,13 +101,13 @@ f2 = @(x) sin(x)./x;
 | 3 | 0.5×10⁻⁹ | — | 触发“精度不符” |
 
 ① eps=0.5×10⁻³  
-![Romberg_esp_5_-3](Computational-Methods/pics/Romberg_esp_5_-3.png)
+![Romberg_esp_5_-3](pics/Romberg_esp_5_-3.png)
 
 ② eps=0.5×10⁻⁶（达到机器精度附近）  
-![Romberg_esp_5_-6](docs/Romberg_esp_5_-6.png)
+![Romberg_esp_5_-6](pics/Romberg_esp_5_-6.png)
 
 ③ eps=0.5×10⁻⁹（过严，层数不足）  
-![Romberg_esp_5_-9](docs/Romberg_esp_5_-9.png)
+![Romberg_esp_5_-9](pics/Romberg_esp_5_-9.png)
 
 &gt; 当 eps 过小时，算法在最大层数 `n=6` 仍无法满足精度，主动报错“精度不符”，体现自适应保护机制。
 
@@ -119,7 +119,7 @@ f2 = @(x) sin(x)./x;
 |------|----------|-----------------|
 | n=10, eps=0.5×10⁻⁵ | 2.37×10⁻⁸ | 1.562225 |
 
-![Romberg_sinx](docs/Romberg_sinx.png)
+![Romberg_sinx](pics/Romberg_sinx.png)
 
 
 ---
